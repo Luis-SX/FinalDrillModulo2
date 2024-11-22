@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    background-color: black;
+
+}
+
+#subt {
+    background-color: black;
+}
+
+header {
+    background: url('/assets/img/header_background.jpg') no-repeat center center/cover;
+}
+
+#mi_img {
+    border-radius: 50%;
+    transition: transform 0.5s ease-in-out;
+}
+
+#mi_img:hover {
+    transform: rotate(360deg)
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+#skills img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+figure { 
+    text-align: center; 
+}
+
+figcaption { 
+    font-size: 0.9em; color: #555;
+}

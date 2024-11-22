@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Estudiante Fullstack</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5 col-sd-6">
+        <h1>Hola, soy Luis Guzmán</h1>
+        <p id="subt">Estudiante del curso Desarrollo de Aplicaciones Full Stack Python Trainee V2.0</p>
+    </header>
+
+    <section id="about" class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <img id="mi_img" src="assets/img/profeRosa.jpg" width="300"  class="img-fluid" alt="Tu Imagen">
+            </div>
+            <div class="col-lg-6">
+                <h2>Sobre Mí</h2>
+                <p>Hola, soy Luis Guzmán, eterno aprendiz en busqueda de nuevas formas de mejorar mi trabajo y simplificar mi día con el uso de nuevas tecnoligías, la curiosidad es parte de mi ser.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container my-5">
+        <h2 class="text-center">Habilidades</h2>
+        <div class="row text-center">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <figure>
+                    <img src="assets/img/HTML5_logo_and_wordmark.svg.png" width="300" class="img-fluid" alt="HTML">
+                    <figcaption>HTML5 logo by <a href="https://es.m.wikipedia.org/wiki/Archivo:HTML5_logo_and_wordmark.svg">Wikipedia</a>. Todos los derechos reservados. </figcaption>
+                </figure>
+                <p>HTML</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <figure>
+                    <img src="assets/img/Bootstrap_logo.png" class="img-fluid" alt="Bootstrap 5">
+                    <figcaption>Bootstrap Logo by <a href="https://www.stickpng.com/img/icons-logos-emojis/tech-companies/bootstrap-logo-thumbnail">stickpng.com</a>. Todos los derechos reservados.</figcaption>
+                </figure>
+                <p>Bootstrap 5</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <figure>
+                    <img src="assets/img/JavaScript_logo_PNG.png" width="300" class="img-fluid" alt="JavaScript">
+                    <figcaption>JavaScript Logo by <a href="https://logos-world.net/allpng/">logos-world.net</a>. Todos los derechos reservados.</figcaption>
+                </figure>
+                <p>JavaScript</p>
+            </div>
+        </div>
+        <!--<p class="text-center">Logos cortesía de sus respectivos propietarios.</p>-->
+    </section>
+
+    <section id="projects" class="container my-5">
+        <h2 class="text-center">Proyectos</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <img src="proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 1</h5>
+                        <p class="card-text">Descripción del proyecto 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <img src="proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 2</h5>
+                        <p class="card-text">Descripción del proyecto 2.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <img src="proyecto3.jpg" class="card-img-top" alt="Proyecto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 3</h5>
+                        <p class="card-text">Descripción del proyecto 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container my-5">
+        <h2 class="text-center">Contacto</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 Luis Guzmán. Todos los derechos e izquierdos bien puestos. Logos cortesía de sus respectivos propietarios.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
