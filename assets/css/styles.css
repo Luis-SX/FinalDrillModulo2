@@ -11,7 +11,7 @@ h1 {
     background-color: black;
 }
 
-header {
+.fondo {
     background-image: url('/assets/img/header_background.jpg');
     background-size:auto; /* Asegura que la imagen cubra todo el contenedor */ 
     background-position: center; /* Centra la imagen en el contenedor */ 
