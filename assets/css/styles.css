@@ -12,7 +12,7 @@ h1 {
 }
 
 header {
-    background: url('/assets/img/header_background.jpg') no-repeat center center/cover;
+    background: url('./assets/img/header_background.jpg') no-repeat center center/cover;
 }
 
 #mi_img {
