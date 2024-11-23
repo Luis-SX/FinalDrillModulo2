@@ -40,3 +40,14 @@ figure {
 figcaption { 
     font-size: 0.9em; color: #555;
 }
+
+.zelda { 
+    color: inherit; /* Hereda el color del elemento padre */ 
+    text-decoration: none; /* Quita el subrayado */ 
+    cursor: default;
+}
+
+.zelda:hover { 
+    text-decoration: underline; /* Añade un subrayado al pasar el ratón, si lo prefieres */ 
+    cursor: pointer;
+}
