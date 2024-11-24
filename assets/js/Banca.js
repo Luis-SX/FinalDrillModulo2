@@ -14,7 +14,7 @@ function consultaSaldo(usuario) {
     alert(`Tu saldo actual es: $${usuario.saldo}`)
 }
 function giro(usuario) {
-    let monto = parseFloat(prompt(`Su saldo actual es: $${usuario.saldo} \nIngrese el monto que desea girar`));
+    let monto;
     while(true) {
         monto = parseFloat(prompt(`Su saldo actual es: $${usuario.saldo} \nIngrese el monto que desea girar`));
         if(!isNaN(monto) && monto > 0) {
@@ -34,8 +34,8 @@ function giro(usuario) {
 function deposito(usuario) {
     let monto;
     while(true) {
-        monto = parseFloat(prompt(`Su salddo actual es: $${usuario.saldo} \nIngrese el monto que desea depositar`));
-        if(!isNAN(monto) && monto > 0) {
+        monto = parseFloat(prompt(`Su saldo actual es: $${usuario.saldo} \nIngrese el monto que desea depositar`));
+        if(!isNaN(monto) && monto > 0) {
             break;
         } else {
             alert("Ingrese un monto válido.");
@@ -47,7 +47,7 @@ function deposito(usuario) {
 
 function iniciarSesion() {
     while (true) {
-        if(!confirm("Bienvenido a Banca en Línea. Presiona Aceptar para continuar o Cancelar para salir.")) {
+        if(!confirm("Bienvenido a BancoEstafo. Presiona Aceptar para continuar o Cancelar para salir.")) {
             alert("Sesión cancelada, Hasta pronto!");
             return;
         }       
