@@ -12,29 +12,29 @@ h1 {
 }
 
 .fondo {
-    background-image: url('../img/header_background.jpg');
+    background-image: url('../img/header_background.jpg');   /*indicamos la ruta de la imagen, solo funciona poniendo ../*/
     background-size:auto; /* Asegura que la imagen cubra todo el contenedor */ 
     background-position: center; /* Centra la imagen en el contenedor */ 
     background-repeat: no-repeat; /* Evita que la imagen se repita */ 
     height: 40vh; /* Asegura que el div ocupe toda la altura de la ventana */ 
     color: white; /* Color del texto para contraste */ 
-    display:block; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center;
+    display: block; /* Par aque se muestre y comporte como bloque */
+    justify-content: center; /*conteniddo al centro */
+    align-items: center; /*Alineaddos al centro */
+    text-align: center;  /*Texto  centrado*/
 }
 
-#mi_img {
-    border-radius: 50%;
-    transition: transform 0.5s ease-in-out;
-}
+#mi_img {                       /* el ID asignado a la imagen del profe rosa  */
+    border-radius: 50%;         /* Hacemos la imagen redonda*/
+    transition: transform 0.5s ease-in-out;  /* Permite cambio de estado del elemento, indicando la velocidad del cambio y el paso a paso*/
+}                                              /* partiendo lento, mas rapido a medio camino y terminando lento */
 
-#mi_img:hover {
-    transform: rotate(360deg)
+#mi_img:hover {         /* con hoover actiamos la acción al pasar el raton encima */
+    transform: rotate(360deg)       /*girando 360°*/
 }
 
 .card {
-    margin-bottom: 20px;
+    margin-bottom: 20px;    /*margen inferior de 20px*/
 }
 
 #skills img {
@@ -50,15 +50,15 @@ figcaption {
     font-size: 0.9em; color: #555;
 }
 
-.zelda { 
+.zelda {                /* clase para modificar los <a> */
     color: inherit; 
     text-decoration:none;  
     cursor: default;
     
 }
 
-.zelda:hover { 
-    text-decoration: none;  
+.zelda:hover {              /* permite accion al pasar el raton sobre el <anchor>  */
+    text-decoration: none;  /*con esto hacemos que el texto no cambie de color ni se subraye*/
     cursor: pointer;
     color: inherit; 
 }
@@ -73,7 +73,7 @@ figcaption {
     height: auto;
 }
 
-.overlay {
+.overlay {              /*para poner el mensaje encimaa de la imagen-link*/
     position: absolute;
     top: 0;
     bottom: 0;
@@ -86,11 +86,11 @@ figcaption {
     background-color: rgba(0,0,0,0.5); 
 }
 
-.link-imagen:hover .overlay {
+.link-imagen:hover .overlay {       /*para poner el mensaje encimaa de la imagen-link*/
     opacity: 3; 
 }
 
-.text {
+.text {                             /*para poner el mensaje encimaa de la imagen-link*/
     color: white;
     font-size: 20px;
     position: absolute;
