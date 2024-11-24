@@ -7,7 +7,7 @@ function validarUsuario(usuario, contrasena) {
 }
 
 function menuPrincipal() {
-    return "Seleccione que desea haacer:\n1.- Ver saldo\n2.- Realizar giro\n3.- Realizar deposito\n4.- Salir\n";
+    return "Seleccione que desea hacer:\n1.- Ver saldo\n2.- Realizar giro\n3.- Realizar deposito\n4.- Salir\n";
 }
 
 function consultaSaldo(usuario) {
